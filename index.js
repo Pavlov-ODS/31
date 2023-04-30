@@ -23,8 +23,9 @@ switch (true) {
     break;
 }
 
+/* Task #2 */
 
-
+const nonber = prompt("Введите число от 0 до 9");
 
 
 
