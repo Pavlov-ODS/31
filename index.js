@@ -25,7 +25,43 @@ switch (true) {
 
 /* Task #2 */
 
-const nonber = prompt("Введите число от 0 до 9");
+const number = prompt("Введите число от 0 до 9:");
+
+switch (number) {
+  case "1":
+    console.log("!");
+    break;
+  case "2":
+    console.log("@");
+    break;
+  case "3":
+    console.log("#");
+    break;
+  case "4":
+    console.log("$");
+    break;
+  case "5":
+    console.log("%");
+    break;
+  case "6":
+    console.log("^");
+    break;
+  case "7":
+    console.log("&");
+    break;
+  case "8":
+    console.log("*");
+    break;
+  case "9":
+    console.log("(");
+    break;
+  case "0":
+    console.log(")");
+    break;
+  default:
+    console.log("Вы ввели неверное число.");
+    break;
+}
 
 
 
