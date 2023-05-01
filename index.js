@@ -1,88 +1,101 @@
 /*Task#1 */
 
-const age = prompt("Сколько Вам лет?");
+// const age = prompt("Сколько Вам лет?");
 
-switch (true) {
-  case isNaN(age):
-    console.log("Вы ввели неверные данные.");
-    break;
-  case age < 0:
-    console.log("Вы ввели отрицательный возраст.");
-    break;
-  case age >= 0 && age <= 11:
-    console.log("Вы - ребенок.");
-    break;
-  case age >= 12 && age <= 17:
-    console.log("Вы - подросток.");
-    break;
-  case age >= 18 && age <= 59:
-    console.log("Вы - взрослый.");
-    break;
-  default:
-    console.log("Вы - пенсионер.");
-    break;
-}
+// switch (true) {
+//   case isNaN(age):
+//     console.log("Вы ввели неверные данные.");
+//     break;
+//   case age < 0:
+//     console.log("Вы ввели отрицательный возраст.");
+//     break;
+//   case age >= 0 && age <= 11:
+//     console.log("Вы - ребенок.");
+//     break;
+//   case age >= 12 && age <= 17:
+//     console.log("Вы - подросток.");
+//     break;
+//   case age >= 18 && age <= 59:
+//     console.log("Вы - взрослый.");
+//     break;
+//   default:
+//     console.log("Вы - пенсионер.");
+//     break;
+// }
 
 /* Task #2 */
 
-const number = prompt("Введите число от 0 до 9:");
+// const number = prompt("Введите число от 0 до 9:");
 
-switch (number) {
-  case "1":
-    console.log("!");
-    break;
-  case "2":
-    console.log("@");
-    break;
-  case "3":
-    console.log("#");
-    break;
-  case "4":
-    console.log("$");
-    break;
-  case "5":
-    console.log("%");
-    break;
-  case "6":
-    console.log("^");
-    break;
-  case "7":
-    console.log("&");
-    break;
-  case "8":
-    console.log("*");
-    break;
-  case "9":
-    console.log("(");
-    break;
-  case "0":
-    console.log(")");
-    break;
-  default:
-    console.log("Вы ввели неверное число.");
-    break;
-}
-
-
-
-// switch (rating) {
-//   case 5:
-//     console.log(`ratting = ${rating} Excellent`);
+// switch (number) {
+//   case "1":
+//     console.log("!");
 //     break;
-//   case 4:
-//     console.log(`ratting = ${rating} Good`);
+//   case "2":
+//     console.log("@");
 //     break;
+//   case "3":
+//     console.log("#");
 //     break;
-//   case 3:
-//     console.log(`ratting = ${rating} Satisfactory`);
+//   case "4":
+//     console.log("$");
 //     break;
-//   case 2:
-//     console.log(`ratting = ${rating} Unsatisfactory`);
+//   case "5":
+//     console.log("%");
 //     break;
-//   case 1:
-//     console.log(`ratting = ${rating} Failed`);
+//   case "6":
+//     console.log("^");
+//     break;
+//   case "7":
+//     console.log("&");
+//     break;
+//   case "8":
+//     console.log("*");
+//     break;
+//   case "9":
+//     console.log("(");
+//     break;
+//   case "0":
+//     console.log(")");
 //     break;
 //   default:
-//     console.log("Invalid grade");
+//     console.log("Вы ввели неверное число.");
 //     break;
 // }
+
+
+/** Task #3 */
+
+// const first = prompt("Введите начальное число");
+// const seccond = prompt("Введите конечное число");
+
+// let sum = 0;
+
+// for (let i = first; i <= seccond; i++){
+//   sum += i;
+// }
+// console.log(sum);
+
+
+/** Task#4 */
+
+// const num1 = parseInt(prompt("Введите первое число:"));
+// const num2 = parseInt(prompt("Введите второе число:"));
+// const minNum = Math.min(num1, num2);
+// const maxN = 1;
+// for (let i = 1; i <= minNum; i++) {
+//   if (num1 % i === 0 && num2 % i === 0) {
+//     maxN = i;
+//   }
+// }
+// console.log(`Наибольший общий делитель: ${maxN}`);
+
+
+/** Task #5 */
+// const num = prompt("Введите число:");
+// for (let i = 1; i <= number; i++) {
+//   if (num % i === 0) {
+//     console.log(i);
+//   }
+// }
+
