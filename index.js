@@ -71,7 +71,7 @@
 
 // let sum = 0;
 
-// for (let i = first; i <= seccond; i++){
+// for (let index = first; index <= seccond; index++){
 //   sum += i;
 // }
 // console.log(sum);
@@ -93,9 +93,16 @@
 
 /** Task #5 */
 // const num = prompt("Введите число:");
-// for (let i = 1; i <= number; i++) {
-//   if (num % i === 0) {
-//     console.log(i);
+// for (let index = 1; index <= num; index++) {
+//   if (num % index === 0) {
+//     console.log(index);
 //   }
 // }
 
+function Numbers() {
+  const num1 = + prompt("Введите первое число:");
+  const num2 = + prompt("Введите второе число:");
+  const sum = num1 + num2;
+  return + sum;
+}
+  console.log('Сумма чисел: $ {Numser()}');
